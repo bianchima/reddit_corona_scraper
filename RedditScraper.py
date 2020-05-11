@@ -1,4 +1,3 @@
-#! python3
 import json
 import praw
 from datetime import datetime as dt
@@ -32,5 +31,6 @@ for i in range(1500):
     except:  # post is invalid
         pass
 
+# Save to file
 with open("data.json", "w") as fp:
     json.dump(posts, fp)
