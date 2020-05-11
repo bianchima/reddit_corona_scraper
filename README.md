@@ -1,5 +1,5 @@
 # Reddit r/coronavirus Scraper
-This project includes a scraper for data from the r/coronavirus subreddit and some elementary analysis into trends from the data.
+This project includes a scraper for data from the r/coronavirus subreddit using the PRAW Python wrapper for the Reddit API and some elementary analysis into trends from the data.
 The project consists of two parts: the scraper, in `RedditScraper.py`, and the data analysis, in `RedditAnalyzer.py`, both of which are to be run from the command line.
 
 ## RedditScraper.py
